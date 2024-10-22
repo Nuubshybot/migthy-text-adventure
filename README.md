@@ -2,15 +2,20 @@
 
 ## Table of Contents
 - [Description](#description)
+- [Technologies](#technologies)
 - [Features](#features)
 - [How to Make Choices](#how-to-make-choices)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Technologies](#technologies)
 - [License](#license)
 
 ## Description
 Mighty Text Adventure Game is an interactive text-based adventure set in Budapest, where you play as a homeless character navigating the city's streets. Your decisions shape your fate, leading to various outcomes—both good and bad. Along the way, you can collect items that influence your journey and the actions available to you.
+
+## Technologies
+- [![java][java]][java-url]
+- [![maven][maven]][maven-url]
+- [![docker][docker]][docker-url]
 
 ## Features
 - **Interactive Storytelling**: Make choices that affect the outcome of your adventure.
@@ -24,7 +29,7 @@ You can select choices by:
 - Entering the initial letter of the choice.
 - Starting to type from the initial letter to form part of the choice.
 
-## Installation
+## Installation with docker
 
 To run the game, you'll need to have Docker installed. Follow these steps to get started:
 
@@ -43,15 +48,18 @@ To run the game, you'll need to have Docker installed. Follow these steps to get
     docker run -it mighty-text-adventure
     ```
 
-
 ## Usage
 
 Once the game is running, follow the prompts to make decisions and navigate through the adventure. Use your creativity to explore different outcomes based on your choices!
 
-## Technologies
-
--   Java
--   Maven
--   Docker
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+[docker]: https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white
+[docker-url]: https://docs.docker.com/engine/install/
+
+[java]: https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&labelColor=ED8B00&logo=java&color=808080[Java
+[java-url]: https://www.java.com/en/download/
+
+[maven]: https://img.shields.io/badge/Maven-4%2B-ED8B00?style=for-the-badge&labelColor=ED8B00&logo=maven&color=808080[Maven
+[maven-url]: https://maven.apache.org/
